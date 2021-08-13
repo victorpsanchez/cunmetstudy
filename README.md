@@ -1,11 +1,15 @@
 # cunmetstudy
 
-## Scripts:
+## Processing Scripts:
 correlation_networks.m  : Calculate correlation matrix for each participant
 
 Run_NBS_FDR.m : Calculate Network Based Statistics using FDR correction. 
 
 generate_scatter_plot.mlx : Matlab live script to generate box-scatter-plot graphs. 
+
+
+## FMRI preprocessing pipeline
+pipeline_config_cunmet.yml : CPAC Pipeline Configuration YAML file
 
 ## Folders:
 timeseries: time series of the Schaefer parcellation for each subject
